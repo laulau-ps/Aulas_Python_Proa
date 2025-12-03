@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Teste de Post</title>
+</head>
+
+<body>
+    <form action="http://127.0.0.1:5000/login" method="post">
+        <!--envia via método post para o servidor local na rota /login-->
+        <table>
+            <tr>
+                <td>Nome</td>
+                <td>
+                    <input type="text" name="nomeUsuario">
+                </td>
+            </tr>
+            <tr>
+                <td>Senha</td>
+                <td>
+                    <input type="password" name="senhaUsuario">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

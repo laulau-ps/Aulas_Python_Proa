@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style2.css')}}">
+</head>
+
+<body>
+    <p>
+        <strong>
+            Obrigada pelo registro! Confirme seus dados:
+        </strong>
+    </p>
+
+    <table border="1">
+        {% for chave,valor in resultado.items() %}
+        <tr>
+            <th>{{chave}}</th>
+            <td>{{valor}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+
+</html>

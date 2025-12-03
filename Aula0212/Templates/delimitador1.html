@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de template com delimitador</title>
+</head>
+
+<body>
+    <p>
+        O Jinja2 pega seu HTML, injeta dados e lógica usando os delimitadores, e entrega uma página web final e dinâmica.
+<br>
+        Para dar as instruções ao Jinja2 dentro do HTML, você usa três tipos de sinais especiais (todos estão dentro de chaves, não coloquei aqui pra não dar gatinho):
+<br>
+        % ... % Usado para lógica e instruções. Ex: Criar loops (for) ou tomar decisões (if). Não aparece na saída.
+        <br>
+
+        { ... } Usado para imprimir um valor. Exibe o conteúdo de uma variável.
+        <br>
+
+        # ... # Usado para comentários internos. O motor ignora totalmente essa parte.
+        <br>
+    </p>
+    <h2>Teste: Olá {{nome}}</h2>
+</body>
+
+</html>

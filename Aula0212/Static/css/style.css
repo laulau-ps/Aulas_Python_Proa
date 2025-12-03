@@ -1,0 +1,16 @@
+* {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(186, 149, 221);
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(93, 4, 81);
+    font-size: medium;
+}
+
+p {
+    color: white;
+    font-size: large;
+}
